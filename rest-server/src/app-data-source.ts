@@ -8,7 +8,7 @@ const dataSource = new DataSource({
   // password: "test",
   database: process.env.DB_NAME,
   entities: ["src/entity/*.ts"],
-  logging: true,
+  logging: false,
   synchronize: true,
 });
 
